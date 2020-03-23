@@ -15,7 +15,6 @@ export const EffectHookExample = () => {
       <p>Вы нажали {count} раз</p>
       <button onClick={() => setCount(count + 1)}>Нажми на меня</button>
       <h4>
-        {" "}
         For more information
         <a href="https://reactjs.org/docs/hooks-effect.html"> see.</a>
       </h4>

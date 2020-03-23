@@ -1,48 +1,22 @@
-# react-js-ie11-starter
+# react-hooks-example
 
-Starter for [Create React App](https://github.com/facebook/create-react-app) on JavaScript which support Internet Explorer 11.
-
-This project created with :
-
-```
-npx create-react-app cra-ts-ie11-starter --template typescript
-```
-
-Added ie11 support:
-
-```
-    npm install react-app-polyfill
-```
-
-Added "import 'react-app-polyfill/ie11';" to index.tsx
-
-Also unnecessary files deleted.
+    Example project for React Hooks.
 
 ## Feature tags
 
 - create-react-app
+- react
 - ie11
-- starter
 - template
-- typescript
-
----
-
-## Parents
-
-[-**typescript**](https://github.com/softspiders/cra-ie11-starter)
-
-## Children
-
-- [+**styled-components, styled-components.theme-providers**](https://github.com/softspiders/styledcomponents-ts-starter)
-- [+**context-api**](https://github.com/softspiders/contextapi-ts-starter)
+- javascript
+- hooks
+- react-router
 
 ---
 
 ## Requirements
 
 - [Node.js](https://nodejs.org/en/download/package-manager/)
-- [TypeScript](https://www.typescriptlang.org/)
 
 ---
 
@@ -79,6 +53,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Learn More
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn more about hooks [see](https://ru.reactjs.org/docs/hooks-intro.html).
 
 ---
 
