@@ -1,23 +1,20 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => (
   <nav>
     <ul>
       <li>
-        <NavLink to="/" exact>
-          Home
-        </NavLink>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <NavLink to="/state-hook-example" exact>
-          State Hook Example
-        </NavLink>
+        <Link to="/state-hook-example">State Hook Example</Link>
       </li>
       <li>
-        <NavLink to="/effect-hook-example" exact>
-          Effect Hook Example
-        </NavLink>
+        <Link to="/effect-hook-example">Effect Hook Example</Link>
+      </li>
+      <li>
+        <Link to="/reducer-hook-example">Reducer Hook Example</Link>
       </li>
     </ul>
   </nav>
