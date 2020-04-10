@@ -16,6 +16,9 @@ export const Navbar = () => (
       <li>
         <Link to="/reducer-hook-example">Reducer Hook Example</Link>
       </li>
+      <li>
+        <Link to="/context-hook-example">Context Hook Example</Link>
+      </li>
     </ul>
   </nav>
 );
